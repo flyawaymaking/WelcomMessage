@@ -1,0 +1,17 @@
+name: WelcomeMessage
+main: com.flyaway.welcomemessage.WelcomeMessage
+version: 1.0.0
+api-version: 1.21
+author: FlyAwayMaking
+website: https://github.com/flyawaymaking
+description: Плагин для отображения кастомных сообщений о входе и выходе игроков с поддержкой LuckPerms, HEX и градиентов.
+
+commands:
+  welcomemessage:
+    description: Управление плагином WelcomeMessage
+    usage: /<command> reload
+
+permissions:
+  welcomemessage.reload:
+    description: Перезагрузка конфига плагина
+    default: op

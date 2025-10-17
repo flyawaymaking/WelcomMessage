@@ -1,0 +1,18 @@
+# Сообщения при входе и выходе игроков
+# Доступно форматирование: цвета (&a, &b и т.д.), градиенты (<gradient:#FF0000:#0000FF>текст</gradient>)
+# HEX цвета: <#FF00FF>текст</#FF00FF>
+# Теги форматирования: <bold>, <italic>, <underlined> и т.д.
+# Чтобы скрыть сообщение нужно указать "", например: quit-message: ""
+
+# Формат отображения сообщений
+# Доступные плейсхолдеры:
+# %prefix% - префикс игрока из LuckPerms
+# %player% - имя игрока
+# %suffix% - суффикс игрока из LuckPerms
+# %message% - основное сообщение (welcome-message, first-time-message, quit-message)
+message-format: "%prefix%%player%%suffix% %message%"
+
+# Основные сообщения
+welcome-message: "&aзашёл на сервер!"
+first-time-message: "&a&lзашёл на сервер впервые!"
+quit-message: "&cвышел с сервера."
